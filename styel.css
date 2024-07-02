@@ -1,0 +1,50 @@
+/* universal secletor */
+/* *{
+    margin-top: 25px;
+    margin-left: 25px;
+    margin-right: 25px;
+} */
+
+.ext{
+    background-color: tomato;
+}
+#div{
+    background-color: aquamarine;
+    padding-top: 5px;
+    }
+.pt1{
+    background-color: rgb(47, 50, 255);
+    
+}
+.pt2{
+    background-color: rgb(245, 0, 233);
+}
+.pt1 , .pt2 {
+    color: blanchedalmond
+    ;
+}
+.hdr{
+    background-color: blanchedalmond;
+    height: 200px;
+    background-size: cover; 
+    background-image: url("/rivage-AQTA5E6mCNU-unsplash.jpg");
+    background-position: center; 
+    background-repeat: no-repeat; ;
+    
+}
+
+.d1 , .d2, .d3 {
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+
+}
+.d2{
+    display: flex;
+    justify-content: right;
+   
+
+}
+.parent-container {
+    display: flex;
+    justify-content: space-around;
